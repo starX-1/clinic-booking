@@ -18,7 +18,8 @@ async def lifespan(app: FastAPI):
 app = FastAPI(
     title=settings.PROJECT_NAME,
     version=settings.VERSION,
-    description="Clinic Booking REST API - Savannah Informatics Take-Home Assessment",
+    description="Clinic Booking REST API - Savannah Informatics Take-Home Assessment (Production Build)",
+
     lifespan=lifespan,
     docs_url="/docs",
     redoc_url="/redoc",
