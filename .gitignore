@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+.env
+clinic.db
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+.DS_Store
